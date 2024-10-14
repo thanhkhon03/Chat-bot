@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Xin chào",
+        "Bạn thế nào",
+        "Ở đây có những gì vậy?",
+        "Hello",
+        "Bạn có thể giúp đỡ tôi không?"
+      ],
+      "responses": [
+        "Chào bạn, tôi có thể giúp gì cho bạn?",
+        "Xin chào, tôi có thể giúp gì được cho bạn nhỉ?",
+        "Chào mừng đến với Ananas, bạn cần giúp tìm kiếm gì?",
+        "Xin chào, bạn có cần tôi giúp gì cho bạn không?",
+        "Rất sẵn lòng, hãy nói nhu cầu của bạn để tôi có thể giúp bạn ^^"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Chào nhé", "Goodbye", "Bye"],
+      "responses": [
+        "Hẹn gặp lại, cảm ơn vì đã ghé thăm ^^",
+        "Hẹn gặp bạn lần sau, rất vui vì có thể giúp đỡ bạn",
+        "Hẹn gặp lại, lần sau lại ghé qua nhé ^^",
+        "Cảm ơn và hẹn gặp lại, chúc bạn có một ngày thật tốt ^^"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Cảm ơn",
+        "Tuyệt vời",
+        "Như vậy là đủ",
+        "Tôi rất ưng, cảm ơn nhiều nhé",
+        "Cảm ơn rất nhiều"
+      ],
+      "responses": [
+        "Không có gì, Bạn còn cần tôi giúp gì nữa không nào ^^",
+        "Mọi lúc, tôi luôn ở đây, để giúp đỡ bạn, đừng ngại đưa ra câu hỏi cho tôi nhé",
+        "Hân hạnh của tôi, hãy nói cho tôi biết khi bạn cần thêm gì nhé ^^"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Bạn có những mẫu giày nào",
+        "Ở đây có nhưng kiểu dáng giày thế nào",
+        "Ở đây shop bán những gì?",
+        "Tôi muốn biết thêm về các sản phẩm ở đây",
+        "Liệt kê cho tôi một số loại sản phẩm mà bạn có",
+        "Shop có bán tất áo không",
+        "Shop có những loại giày nào"
+      ],
+      "responses": [
+        "Chúng tôi bán các mẫu mặt hàng giày, áo, túi và tất thời trang cho cả nam và nữ, bạn có muốn tìm hiểu thêm không?",
+        "Cửa hàng của chúng tôi bán nhiều loại giày khác nhau như giày chạy bộ, giày thông thường và giày công sở.",
+        "Bạn có thể tìm thấy nhiều lựa chọn giày nam và nữ, bao gồm cả giày thể thao và giày thời trang, trong cửa hàng của chúng tôi.",
+        "Chúng tôi bán đa dạng các kiểu dáng cho bạn lựa chọn ví dụ low top, high top, mid top,..."
+      ]
+    },
+    {
+      "tag": "sizes",
+      "patterns": [
+        "Shop bán những size nào",
+        "Bạn có size 30 không",
+        "Những cỡ giày nào có sẵn",
+        "Bạn có thể cho tôi biết mẫu này còn size nào không?"
+      ],
+      "responses": [
+        "Chúng tôi có rất nhiều size bao gồm các size từ 35 cho đến 41.",
+        "Chúng tôi còn rất nhiều size cho bạn chọn, hãy xem nhé",
+        "Tất nhiên, tất cả những mẫu ở đây là hàng mới nhập nên size sẽ có đủ nhé",
+        "Hiện tại bên mình còn rất nhiều size, bạn có thể tham khảo thêm trên website Ananas"
+      ]
+    },
+    {
+      "tag": "materials",
+      "patterns": [
+        "Mẫu giày nó có chất liệu gì",
+        "Giày này có da không",
+        "Những loại giày này có chất liệu gì",
+        "Những chất liệu này có tốt không",
+        "Shop có giày da không"
+      ],
+      "responses": [
+        "Giày của chúng tôi được làm từ chất liệu cao cấp như da, vải và sợi tổng hợp.",
+        "Chúng tôi sử dụng các chất liệu cao cấp như da, lưới và vải tổng hợp cho giày của mình.",
+        "Chất liệu được sử dụng bao gồm da, vải và các vật liệu tổng hợp bền khác.",
+        "Shop có rất nhiều mẫu giày với những chất lượng cao cấp, bạn có thể xem kĩ hơn trên website ^^"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Shop có phương thức thanh toán bằng thẻ tín dụng không",
+        "shop có thanh toán bằng Zalo Pay không",
+        "Shop có thanh toán bằng ví điện tử MoMo không",
+        "Tôi có thể thanh toán qua những hình thức nào",
+        "Bạn có những phương thức thanh toán nào",
+        "Tôi có thể trả bằng VN Pay không"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận các phương thức Zalo Pay, Ví điện tử MoMo, thẻ ngân hàng và trả bằng tiền mặt. Bạn có thể xem xét để lựa chọn phù hợp^^"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Việc chuẩn bị hàng, đóng gói và giao hàng sẽ diễn ra trong bao lâu",
+        "Tôi có phải chờ đợi lâu khi giao hàng không",
+        "Khi nào tôi được nhận hàng",
+        "Thông thường việc giao hàng sẽ diễn ra trong bao lâu"
+      ],
+      "responses": [
+        "Ananas với đội ngũ nhân viên rất lớn, sẽ bảo đảm việc chuẩn bị hàng, đóng gói hàng và giao hàng nhanh nhất có thể, Bạn hãy kiên nhẫn nhé ^^",
+        "Ananas đảm bảo sẽ đóng gói hàng và giao hàng cho bạn với thời gian ngắn nhất cùng với sự đảm bảo về chất lượng. Bạn hãy kiên nhẫn chờ đợi đơn hàng của bạn nhé ^^",
+        "Bạn có thể trông cậy vào Ananas, dịch vụ giao hàng của chúng tôi sẽ không làm bạn thất vọng. Hãy kiên nhẫn chờ đợi nhé, mọi thắc mắc xin vui lòng liên hệ với chúng tôi ^^"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "Khi nào shop mở cửa",
+        "Shop mở cửa vào giờ nào",
+        "Khi nào shop đóng cửa",
+        "Shop kinh doanh vào giờ nào",
+        "Shop đóng cửa vào giờ nào"
+      ],
+      "responses": [
+        "Ananas mở cửa vào lúc 7 giờ sáng đến 9h tối, từ thứ hai đến chủ nhật. Đừng ngần ngại ghé thăm nhé",
+        "Chúng tôi kinh doanh vào lúc 7 giờ sáng đến 9h tối, từ thứ hai đến chủ nhật hằng tuần, Hãy ghé thăm và trải nghiệm ^^"
+      ]
+    }
+  ]
+}
